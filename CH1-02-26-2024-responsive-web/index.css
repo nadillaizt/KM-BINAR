@@ -1,0 +1,40 @@
+h1 {
+  font-size: 30px;
+  color: blue;
+}
+
+@media (max-width: 600px) {
+  /* h1 {
+        font-size: 6px;
+        color: yellow;
+    } */
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+  /* h1 {
+        color: red;
+    } */
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .right-section img {
+        object-fit: cover;
+    }
+}
+
+.left-section {
+  float: left;
+}
+
+.left-section img {
+    object-fit: cover;
+}
+
+.right-section {
+  float: right;
+}
